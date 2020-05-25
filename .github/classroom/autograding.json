@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "Test 1",
+      "setup": "javac ./src/*.java",
+      "run": "cd ./src && java Main",
+      "input": "5 1 3\r\n1\r\n2\r\n3\r\n4\r\n5",
+      "output": "1\r\n4\r\n3\r\n2\r\n5",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Test 2",
+      "setup": "javac ./src/*.java",
+      "run": "cd ./src && java Main",
+      "input": "1 2 3\r\n1",
+      "output": "NO",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Test 3",
+      "setup": "javac ./src/*.java",
+      "run": "cd ./src && java Main",
+      "input": "5 0 5\r\n100\r\n11\r\n2\r\n59\r\n123",
+      "output": "NO",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Test 4",
+      "setup": "javac ./src/*.java",
+      "run": "cd ./src && java Main",
+      "input": "2 0 1\r\n1\r\n2",
+      "output": "2\r\n1",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Test 5",
+      "setup": "javac ./src/*.java",
+      "run": "cd ./src && java Main",
+      "input": "4 4 4\r\n1\r\n2\r\n3\r\n4",
+      "output": "NO",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
