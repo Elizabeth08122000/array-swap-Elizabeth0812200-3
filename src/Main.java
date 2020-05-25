@@ -15,8 +15,8 @@ public class Main {
         for (int i = 0; i < scStrings.length; i++) {
             scNumbers[i] = Integer.parseInt(scStrings[i]);
         }
-        if(scNumbers[0]>=scNumbers[1]){
-            if(scNumbers[0]>=scNumbers[2]){
+        if(scNumbers[0]>scNumbers[1]){
+            if(scNumbers[0]>scNumbers[2]){
                 int arraySize = scNumbers[0];
                 int[] array = new int[arraySize];
                 for(int i = 0; i < array.length; i++){
